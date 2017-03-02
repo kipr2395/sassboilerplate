@@ -1,0 +1,29 @@
+@import 'icon/*.png';
+@include all-icon-sprites;
+  // @include all-icon-sprites(glossy);
+
+ul{
+	padding:0px;
+}
+
+li{
+	display:inline-block;
+	list-style: none;
+	padding:10px;
+	a{
+		display:inline-block;
+		width: 200px;
+		height:200px;
+		
+		span{
+			position: absolute;
+			top:-9999em;
+			left:-9999em;
+			
+		}//span
+
+	}//a
+
+}//li
+
+
