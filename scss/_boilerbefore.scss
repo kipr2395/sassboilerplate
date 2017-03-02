@@ -1,0 +1,42 @@
+body{
+	text-align: center;
+	background-image: url(../img/background.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: 'Open Sans', sans-serif;
+	/*font-family: 'Lora', serif;*/
+	color: white;
+}
+header{
+	height: 250px;
+	padding-top: 60px;
+}
+h1{
+	font-weight: 800;
+	font-size: 50px;
+}
+h2{
+	font-size: 20px;
+}
+h3{
+	vertical-align: top;
+	margin-top: 50px;
+	/*height: 200px;*/
+}
+div.project{
+	height: 200px;
+	width: 200px;
+	background-color: white;
+	margin: 50px 50px 50px 50px;
+	display: inline-block;
+
+}
+a{
+	color:#4C1D22;
+	text-decoration: none;
+}
+a:hover{
+	color:#993A44;
+}
